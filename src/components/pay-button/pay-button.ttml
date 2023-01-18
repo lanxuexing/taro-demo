@@ -1,0 +1,24 @@
+<!-- 立即抢购 -->
+<pay-button
+  mode="{{2}}"
+  goods-id="{{goodsId}}"
+  goods-type="{{2}}"
+  bind:getgoodsinfo="getGoodsInfo"
+  bind:placeorder="userLogin"
+  bind:pay="onPay"
+  bind:error="onError"
+/>
+
+<!-- 申请退款 -->
+<!-- <pay-button
+  mode="{{1}}"
+  goods-id="{{goodsId}}"
+  order-id="ext_ots71582818684110953008676"
+  goods-type="{{2}}"
+  order-status="{{1}}"
+  bind:getgoodsinfo="getGoodsInfo"
+  bind:placeorder="userLogin"
+  bind:pay="onPay"
+  bind:refund="handleRefund"
+  bind:error="onError"
+/> -->
