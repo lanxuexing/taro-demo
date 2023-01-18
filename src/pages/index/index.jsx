@@ -113,7 +113,7 @@ export default class Index extends Component {
           goodsId='12345'
           mode={2}
           goodsType={2}
-          onGetgoodsinfo={this.getGoodsInfo}
+          onGetGoodsInfo={this.getGoodsInfo}
           onPlaceOrder={this.userLogin}
           onPay={this.onPay}
           onError={this.onError}
